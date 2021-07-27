@@ -60,8 +60,6 @@ function SearchStandard() {
   return (
 
         <Search
-          fluid='true'
-          size='medium'
           loading={loading}
           onResultSelect={(e, data) =>
             dispatch({ type: 'UPDATE_SELECTION', selection: data.result.name })
