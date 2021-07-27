@@ -112,7 +112,7 @@ export class ShoppingLists extends Component {
           </Segment>
 
           <Segment basic>
-            <Grid>
+            <Grid doubling columns={5}>
               <Grid.Column width={4}>
                 {lists}
                 {pagination}
